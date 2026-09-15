@@ -24,13 +24,21 @@
 
 
 #program 2
-var1 = float( input ("please input the length:")   )
-var2 = float( input ("please input the width:")   )
-var3 = float( input ("please input the height:")   )
+#var1 = float( input ("please input the length:")   )
+#var2 = float( input ("please input the width:")   )
+#var3 = float( input ("please input the height:")   )
 
-myVolume = var1 * var2 * var3
-print("The volume of the box is: ", f"{myVolume:.2f}")
+#myVolume = var1 * var2 * var3
+#print("The volume of the box is: ", f"{myVolume:.2f}")
+#the .2f is to format the final result to two decimal places.
 
 
 
+#Program 3
+varPV = float( input ("please input how much you want to invest:")   )
+varn = float( input ("please input the number of years:")   )
+varRate = float( input ("please input the yearly rate of return:")   )
 
+myFV = varPV * (1 + varRate) ** varn
+print("The future value of your investment is: ", f"{myFV:.2f}")
+#the .2f is to format the final result to two decimal places. 
