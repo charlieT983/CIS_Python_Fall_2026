@@ -8,12 +8,12 @@ var4 = int( input ("please input the fourth number:")   )
 var5 = int( input ("please input the fifth number:")   )
 
 
+#add () to the mysum and myproduct to make sure the order of operations is correct.
 
 
-
-mySum = var1 + var2 + var3 + var4 + var5
-myProduct = var1 * var2 * var3 * var4 * var5
-myAvg = mySum / 5
+mySum = (var1 + var2 + var3 + var4 + var5)
+myProduct = (var1 * var2 * var3 * var4 * var5)
+myAvg = (mySum / 5)
 
 print("The five numbers are: ", var1, var2, var3, var4, var5)
 print("The sum of the five numbers is: ", mySum)
@@ -34,7 +34,7 @@ print("The average of the five numbers is: ", myAvg)
 #var2 = float( input ("please input the width:")   )
 #var3 = float( input ("please input the height:")   )
 
-#myVolume = var1 * var2 * var3
+#myVolume = (var1 * var2 * var3)
 #print("The volume of the box is: ", f"{myVolume:.2f}")
 #the .2f is to format the final result to two decimal places.
 
