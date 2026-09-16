@@ -1,0 +1,45 @@
+#program 1
+#var1 = int(input ("please input the first number"))
+#var2 = int(input("please input second number"))
+#var3 = int(input("please input third number"))
+
+#mySum = var1 + var2 +var3
+#myProduct = var1 * var2 * var3
+
+#print ("The sum of the three number is ", mySum)
+#print ("The product of the three number is ", myProduct)
+
+#if you don't cast the input it will concatinate the numbers.
+
+
+#program 2 
+#var1 = input("please input your last name:")
+#var2 = input("please input your first name:")
+#var3 = input("please input your middle name:")
+
+#print ("your name is", var1,",", var2,",",var3)
+
+#program 3 
+#var1 = input("please input your first name:")
+#var2 = input("please input your last name:")
+#var3 = input("please input your address:")
+#var4 = input("please input your city:")
+#var5 = input("please input your zip code:")
+
+#print ("your delivery address is", var1, ",", var2, ",", var3, "", var4, ",", var5)
+
+#program 4
+
+var1 = input("please input your first name:")
+var2 = input("please input your last name:")
+var3 = int(input("please enter how many hours you worked last month:"))
+var4 = float(input("please input your hourly wage:"))
+
+myPay = (var3 * var4) 
+myPayaftertax = (myPay * 0.30)
+
+print ("your name is ", var1 , var2)
+print ("your pay before taxes is:", myPay)
+print ("your pay after taxes:", myPayaftertax)
+
+

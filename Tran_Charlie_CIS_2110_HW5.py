@@ -40,6 +40,8 @@ print("The average of the five numbers is: ", myAvg)
 
 
 
+
+
 #Program 3
 #varPV = float( input ("please input how much you want to invest:")   )
 #varn = float( input ("please input the number of years:")   )
