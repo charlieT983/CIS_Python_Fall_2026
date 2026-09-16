@@ -32,7 +32,7 @@
 
 var1 = input("please input your first name:")
 var2 = input("please input your last name:")
-var3 = int(input("please enter how many hours you worked last month:"))
+var3 = float(input("please enter how many hours you worked last month:"))
 var4 = float(input("please input your hourly wage:"))
 
 myPay = (var3 * var4) 
