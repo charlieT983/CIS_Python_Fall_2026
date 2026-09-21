@@ -1,0 +1,58 @@
+#var1 = float(input("please input your grade: "))
+#if (var1 >= 90):
+    #print ("you got an A")
+#elif (var1 >= 80):
+    #print ("you got a B")
+#elif (var1 >= 70):
+    #print("you got a C")
+#elif (var1 >= 60):
+    #print("you got a D")
+#elif (var1 < 60):
+    #print ("you got an F, BYE BYE")
+
+
+
+
+#Program 2
+#var1 = float(input("please input speed limit: "))
+#var2 = float(input("please input your speed: "))
+
+#if (var2 > var1 + 20):
+    #print ("you are going too fast, big fat ticket")
+#elif(var2 <= var1):
+    #print("no ticket")
+#elif (var2 >= var1 + 10):
+    #print("you are going a little too fast ")
+
+#you can add a third vvarible difference so that you can calculate the difference of speed 
+
+#Python is case sensitive
+
+
+#if you have all ifs and you put an input of 75 anything greater than 75 will print the first if statement and the last if statement.  If you put an input of 85 it will print the first if statement and the second if statement.  If you put an input of 65 it will print the last if statement.  If you put an input of 55 it will print the second if statement.  If you put an input of 95 it will print the first if statement and the second if statement.  If you put an input of 105 it will print the first if statement and the second if statement.  If you put an input of 115 it will print the first if statement and the second if statement.  If you put an input of 125 it will print the first if statement and the second if statement.  If you put an input of 135 it will print the first if statement and the second if statement.  If you put an input of 145 it will print the first if statement and the second if statement.  If you put an input of 155 it will print the first if statement and the second if statement.
+#conditionals ifs 
+
+
+#program 3
+#yourPassword = str(input("please enter your password:"))
+
+#if (yourPassword == "Defult123"):
+
+    #yourPassword = str(input("please enter your password:"))
+    #checkPassword = str(input("please re-enter new password:"))
+    #if (yourPassword == checkPassword):
+        #print ("your password has been changed")
+
+    #if (yourPassword != checkPassword):
+        #print("your password is incorrect, please try again")
+        #yourPassword = str(input("please enter new password:"))
+        #checkPassword = str(input("please re-enter a new password:"))
+#else:
+   #print ("end")
+
+
+
+
+lastname = input("please input your last name:")
+
+print (lastname [0])
