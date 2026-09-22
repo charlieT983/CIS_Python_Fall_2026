@@ -1,0 +1,4 @@
+{
+    "python.useEnvironmentsExtension": false,
+    "python.analysis.autoImportCompletions": true
+}
