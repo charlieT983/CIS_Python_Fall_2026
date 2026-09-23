@@ -1,0 +1,29 @@
+varQ = input("do you like dogs?:")
+varA = input("do you like cats?:")
+varB = input("do you like movies?:" )
+points = 0
+yes = 3
+no = -1 
+
+if (varQ == "yes" = (yes) ):
+    print ("you like dogs too")
+    if (varA == "yes" = yes):
+        print ("you like cats too")
+    elif (varA == "no" = no): 
+        print ("you don't like cats")
+        if (varB == "yes" = yes):
+            print ("you like movies too" )
+        elif (varB == "no" = no ):
+            print ("you don't like movies")
+            
+
+            
+else:
+    print ("maybe in 17 years...")
+
+
+
+
+        
+ 
+    
